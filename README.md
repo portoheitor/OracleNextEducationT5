@@ -1,6 +1,6 @@
 
 <h1>OracleNextEducationT5 🤖</h1>
-<p>Neste repositorio contem os challanger que o programa da Oracle em parceira com  a Alura nos propos
+<p>Neste repositorio contem os challanger que o programa da OracleNextEducaton em parceira com  a Alura nos propos
 </p>
 👉 https://portoheitor.github.io/OracleNextEducationT5/ChallangerIniciante/index.html
 <br><br>
