@@ -1,0 +1,145 @@
+/* Grid template */
+.container {
+    display: grid;
+    grid-template-areas: 
+        "logo code message"
+        "footer footer footer";
+    grid-template-columns: 0.5fr 3fr 1.2fr;
+    grid-template-rows: 96vh;
+    column-gap: 1rem;
+}
+
+.logo {
+    grid-area: logo;
+    justify-self: center;
+}
+
+.code {
+    grid-area: code;
+}
+
+.message {
+    grid-area: message;
+}
+
+.footer {
+    grid-area: footer;
+    justify-self: center;
+}
+
+/* Fim grid template */
+
+
+
+/* Grid botões */
+
+.buttons {
+    display: grid;
+    grid-template-areas: 
+        "info info"
+        "botao1 botao2";
+        grid-template-columns: 0.4fr;
+        row-gap: 1rem;
+}
+
+.info {
+    grid-area: info;
+}
+
+.botao1 {
+    grid-area: botao1;
+}
+
+.botao2 {
+    grid-area: botao2;
+}
+
+/* Fim grid botões */
+
+
+/* Grid template small devices*/
+@media only screen and (max-width: 819px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+            "logo"
+            "code"
+            "message"
+            "footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 1rem;
+    }
+
+    .logo {
+        justify-self: start;
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+    /* Grid botões */
+
+    .buttons {
+        display: grid;
+        grid-template-areas: 
+            "info"
+            "botao1"
+            "botao2";
+
+        justify-content: center;
+    }
+
+    .message {
+        justify-self: center;
+    }
+
+}
+
+
+
+
+/* Grid template medium devices */
+@media only screen and (min-width: 820px) and (max-width: 1199px) {
+
+    .container {
+        display: grid;
+        grid-template-areas: 
+            "logo logo"
+            "code code"
+            "message message"
+            "footer footer";
+        
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        row-gap: 2rem;
+    }
+
+    /* Grid botões */
+
+    .buttons {
+        display: grid;
+        grid-template-areas: 
+            "info"
+            "botao1 botao2";
+            gap: 0.3rem 2rem;
+
+            justify-content: center;
+    }
+
+
+    .message {
+        justify-self: center;
+    }
+
+    .logo {
+        justify-self: start;
+    }
+
+    .info {
+        font-size: 0.8rem;
+    }
+
+}

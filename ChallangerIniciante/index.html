@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jsDesafio.js" defer></script>
+
+    <title>DecodeMe</title>
+</head>
+<body>
+    <main class="container">
+
+        <header class="logo">
+           <a href="https://www.alura.com.br/" target="_blank"><img src="./imagens/output-onlinegiftools.gif" alt="Logo Alura"></a>
+           
+        </header>
+
+        <section class="code">
+
+            <textarea placeholder="Digite seu texto" id="text-area" class="texto"></textarea>
+
+            <div class="buttons">
+
+                <div class="info">
+                    <img src="./imagens/bi_exclamation-circle-fill.svg" alt="Icone de informação">
+                    <span>Apenas letras minúsculas e sem acento.</span>
+                </div>
+
+                <button class="botao1 btn" onclick="criptografar()">Criptografar</button>
+
+                <button class="botao2 btn" onclick="descriptografar()">Descriptografar</button>
+
+            </div>
+        </section>
+
+        <section class="message" id="message-area">
+            <img src="./imagens/footer.gif" alt="Ilustração de uma pessoa segurando uma lupa enquanto olha um diamante.">
+            <h3>Nenhuma mensagem <br> encontrada.</h3>
+            <p>Digite o texto que você deseja <br> criptografar ou descriptografar.</p>
+        </section>
+
+        <footer class="footer">
+            <img src="./imagens/direito-autoral.png" alt="Copyright"><span><em>Desenvolvido por <a href="https://github.com/portoheitor" target="_blank">Heitor Ribeiro Porto</a></em></span>
+        </footer>
+    </main>
+</body>
+</html>
