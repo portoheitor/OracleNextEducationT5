@@ -1,22 +1,16 @@
+# OracleNextEducationT5 🤖
 
-<h1>OracleNextEducationT5 🤖</h1>
-<p>Neste repositorio contem os challanger que o programa da OracleNextEducaton em parceira com  a Alura nos propos
-</p>
+Neste repositório estão os challenges que o programa OracleNextEducation, em parceria com a Alura, nos propôs.
 
+## Decodificador de Texto - Alura Challenges Oracle ONE
 
-<h2>Decodificador de Texto - Alura Challengs Oracle ONE</h2>
+**👉 [DECODIFICADOR DE TEXTO](https://portoheitor.github.io/OracleNextEducationT5/ChallangerIniciante/index.html)**  
+Nesse exercício, foi usada uma lógica de "criptografia" para alterar o texto informado.  
+A regra foi a seguinte:  
+- A letra "e" é convertida para "enter"  
+- A letra "i" é convertida para "imes"  
+- A letra "a" é convertida para "ai"  
+- A letra "o" é convertida para "ober"  
+- A letra "u" é convertida para "ufat"  
 
-
-<p><strong>👉 <a
-            href="https://portoheitor.github.io/OracleNextEducationT5/ChallangerIniciante/index.html">DECODIFICADOR DE TEXTO</a></strong> <br>
-    Nesse exercio foi usado uma logica de "criptografia"  para alterar o texto informado.<br>
-    A regra foi a seguinte:<br>
-    A letra "e" é convertida para "enter"<br>
-    A letra "i" é convertida para "imes"<br>
-    A letra "a" é convertida para "ai"<br>
-    A letra "o" é convertida para "ober"<br>
-    A letra "u" é convertida para "ufat"</p><br>
-
-
-[![Descrição da Imagem](https://drive.google.com/uc?export=view&id=1d_sSRuRs2q-kfhgabvc2n_Od1zr4mzhz)](https://portoheitor.github.io/OracleNextEducationT5/ChallangerIniciante/index.html) 
-    
+[![Descrição da Imagem](https://drive.google.com/uc?export=view&id=1d_sSRuRs2q-kfhgabvc2n_Od1zr4mzhz)](https://portoheitor.github.io/OracleNextEducationT5/ChallangerIniciante/index.html)
